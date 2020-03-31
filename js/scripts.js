@@ -9,9 +9,9 @@ $(document).ready(function() {
     console.log(sentence);
     });
     $("#answer").text(sentence);
-    $("#question").toggle();
-    $("#button").toggle();
-    $("#display").toggle();
+    $("#question").hide();
+    $("#button").hide();
+    $("#display").show();
   // console.log("anything")
   });
 });
