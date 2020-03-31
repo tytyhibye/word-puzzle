@@ -11,18 +11,25 @@
   </head>
   <body>
     <div class="container">
+      <form id="puzzle">
       <h1>Word Puzzle Time</h1>
-      <h3>Use the Clue to answer the question.(good luck)</h3>
+      <h3>Answer the following question.(good luck)</h3>
       <br>
         <div id="question">
           <h4>Q: Why did the functions stop calling each other?</h4>
         </div>
         <br>
-        <button type="submit" class="btn btn-white btn-animated">Let's do this</button>
+        <button id="button" type="submit" class="btn btn-white btn-animated">Let's do this</button>
         <br>
-        <div id="answer">
-          <h4>A: Because they had constant arguments.</h4>
-        </div>  
+        <div id="display">
+        <br>
+        <h4 id="answer">Because they had constant arguments.</h4>
+        <br>
+        <label>Type your answer here</label>
+        <br>
+        <input type="text" name="input" id="input">
+        </div> 
+      </form> 
     </div>
   </body>
 </html>
